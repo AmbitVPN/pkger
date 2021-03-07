@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"syscall"
 
 	"github.com/markbates/pkger/cmd/pkger/cmds"
 )
@@ -14,6 +15,7 @@ func main() {
 		c.Stdout = os.Stdout
 		c.Stderr = os.Stderr
 		c.Stdin = os.Stdin
+		c.SysProcAttr = &syscall.SysProcAttr{HideWindow: true}
 		c.Run()
 	}
 	defer clean()
