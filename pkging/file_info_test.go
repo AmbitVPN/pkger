@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/pkging"
+	"github.com/ambitvpn/pkger/here"
+	"github.com/ambitvpn/pkger/pkging"
 	"github.com/stretchr/testify/require"
 )
 

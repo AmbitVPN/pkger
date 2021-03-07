@@ -1,4 +1,4 @@
-module github.com/markbates/pkger
+module github.com/ambitvpn/pkger
 
 go 1.13
 

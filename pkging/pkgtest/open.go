@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/markbates/pkger/pkging"
+	"github.com/ambitvpn/pkger/pkging"
 	"github.com/stretchr/testify/require"
 )
 

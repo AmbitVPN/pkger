@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/markbates/pkger"
-	"github.com/markbates/pkger/here"
+	"github.com/ambitvpn/pkger"
+	"github.com/ambitvpn/pkger/here"
 )
 
 type pathCmd struct {

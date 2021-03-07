@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/markbates/pkger"
+	"github.com/ambitvpn/pkger"
 )
 
 func main() {

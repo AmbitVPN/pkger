@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/markbates/pkger/cmd/pkger/cmds"
+	"github.com/ambitvpn/pkger/cmd/pkger/cmds"
 )
 
 func main() {

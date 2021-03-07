@@ -3,7 +3,7 @@ package stdos
 import (
 	"testing"
 
-	"github.com/markbates/pkger/here"
+	"github.com/ambitvpn/pkger/here"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/pkging/pkgtest"
-	"github.com/markbates/pkger/pkging/stdos"
+	"github.com/ambitvpn/pkger/here"
+	"github.com/ambitvpn/pkger/pkging/pkgtest"
+	"github.com/ambitvpn/pkger/pkging/stdos"
 	"github.com/stretchr/testify/require"
 )
 
@@ -95,7 +95,7 @@ func Test_Parser_dotGo_Directory(t *testing.T) {
 func Test_Parser_Example_HTTP(t *testing.T) {
 	r := require.New(t)
 
-	cur, err := here.Package("github.com/markbates/pkger")
+	cur, err := here.Package("github.com/ambitvpn/pkger")
 	r.NoError(err)
 
 	root := filepath.Join(cur.Dir, "examples", "http", "pkger")

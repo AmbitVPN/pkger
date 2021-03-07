@@ -6,8 +6,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/pkging"
+	"github.com/ambitvpn/pkger/here"
+	"github.com/ambitvpn/pkger/pkging"
 )
 
 func Dump(w io.Writer, pkg pkging.Pkger) error {

@@ -6,10 +6,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/parser"
-	"github.com/markbates/pkger/pkging/embed"
-	"github.com/markbates/pkger/pkging/mem"
+	"github.com/ambitvpn/pkger/here"
+	"github.com/ambitvpn/pkger/parser"
+	"github.com/ambitvpn/pkger/pkging/embed"
+	"github.com/ambitvpn/pkger/pkging/mem"
 )
 
 func Stuff(w io.Writer, c here.Info, decls parser.Decls) error {

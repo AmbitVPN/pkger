@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/markbates/pkger"
+	"github.com/ambitvpn/pkger"
 )
 
 func WalkTemplates(w io.Writer) error {

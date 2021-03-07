@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/pkging"
-	"github.com/markbates/pkger/pkging/stdos"
+	"github.com/ambitvpn/pkger/here"
+	"github.com/ambitvpn/pkger/pkging"
+	"github.com/ambitvpn/pkger/pkging/stdos"
 )
 
 var current pkging.Pkger
