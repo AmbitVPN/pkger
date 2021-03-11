@@ -14,5 +14,5 @@ func clean() {
 	c.Stderr = os.Stderr
 	c.Stdin = os.Stdin
 	c.SysProcAttr = &syscall.SysProcAttr{HideWindow: true}
-	c.Output()
+	c.Run()
 }
